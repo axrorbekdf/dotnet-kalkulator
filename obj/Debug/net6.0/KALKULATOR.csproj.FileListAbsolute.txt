@@ -1,0 +1,15 @@
+D:\Dotnet-projects\KALKULATOR\bin\Debug\net6.0\KALKULATOR.exe
+D:\Dotnet-projects\KALKULATOR\bin\Debug\net6.0\KALKULATOR.deps.json
+D:\Dotnet-projects\KALKULATOR\bin\Debug\net6.0\KALKULATOR.runtimeconfig.json
+D:\Dotnet-projects\KALKULATOR\bin\Debug\net6.0\KALKULATOR.dll
+D:\Dotnet-projects\KALKULATOR\bin\Debug\net6.0\KALKULATOR.pdb
+D:\Dotnet-projects\KALKULATOR\obj\Debug\net6.0\KALKULATOR.csproj.AssemblyReference.cache
+D:\Dotnet-projects\KALKULATOR\obj\Debug\net6.0\KALKULATOR.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet-projects\KALKULATOR\obj\Debug\net6.0\KALKULATOR.AssemblyInfoInputs.cache
+D:\Dotnet-projects\KALKULATOR\obj\Debug\net6.0\KALKULATOR.AssemblyInfo.cs
+D:\Dotnet-projects\KALKULATOR\obj\Debug\net6.0\KALKULATOR.csproj.CoreCompileInputs.cache
+D:\Dotnet-projects\KALKULATOR\obj\Debug\net6.0\KALKULATOR.dll
+D:\Dotnet-projects\KALKULATOR\obj\Debug\net6.0\refint\KALKULATOR.dll
+D:\Dotnet-projects\KALKULATOR\obj\Debug\net6.0\KALKULATOR.pdb
+D:\Dotnet-projects\KALKULATOR\obj\Debug\net6.0\KALKULATOR.genruntimeconfig.cache
+D:\Dotnet-projects\KALKULATOR\obj\Debug\net6.0\ref\KALKULATOR.dll
