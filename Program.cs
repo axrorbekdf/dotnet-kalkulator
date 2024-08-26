@@ -7,43 +7,25 @@ internal class Program
     {   
         
         Security security = new Security();
-        security.CheckPasswod();
-
         Calculator calculator = new Calculator();
 
+        security.CheckPasswod();
         calculator.GetInputs();
 
-        int summary = 0;
-        switch (calculator.Operation)
-        {
-            case "+":
-                summary = calculator.FirstNumber + calculator.SecondNumber;
-                break;
+        string messageFirst = !(calculator.IsFirstNumberPositive()) ? "1-raqam musbat emas!" : "1-raqam manfiy emas!";
+        Console.WriteLine(messageFirst);
 
-            case "-":
-                summary = calculator.FirstNumber - calculator.SecondNumber;
-                break;
+        string messageSecond = !(calculator.IsSecontNumberPositive()) ? "2-raqam musbat emas!" : "2-raqam manfiy emas!";
+        Console.WriteLine(messageSecond);
 
-            case "*":
-                summary = calculator.FirstNumber * calculator.SecondNumber;
-                break;
+        calculator.ComparisonInputs();
 
-            case "/":
-                if (calculator.SecondNumber == 0)
-                    Console.WriteLine("Sonni 0ga bo'lib bo'lmaydi!");
-                else
-                    summary = calculator.FirstNumber / calculator.SecondNumber;
-                break;
+        string result = calculator.Calculate();
+        Console.WriteLine($"Natija: {result}");
 
-            case "%":
-                summary = calculator.FirstNumber + calculator.SecondNumber;
-                break;
 
-            default:
-                Console.WriteLine("Bunday amal mavjud emas!");
-                break;
-        }
+        calculator.PrintEvenNumbers();
 
-        Console.WriteLine($"Natija: {summary}");
+        calculator.PrintMultiplicationTable();
     }
 }
